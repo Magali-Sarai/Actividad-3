@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spidey News</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+
+    <div class="marco-rastreador">
+        
+        <!-- ================= BARRA SUPERIOR ================= -->
+        <header class="barra-superior">
+            <button id="btnAbrirMenu" class="btn-icono cabecera-izq icono-naranja">
+                <img src="img/Spidey-ojos.png" height="40px" width="40px" alt="Ojos">
+            </button>   
+            
+            <div class="contenedor-logo">
+                <div class="caja-logo">
+                    <span>SPIDEY</span>
+                    <img src="img/logo.png" height="50px" width="50px" alt="Ojos pequeños">
+                    <span>NEWS</span>
+                </div>
+            </div>
+
+            <button class="btn-icono cabecera-der">
+                <img src="img/arana.png" height="30px" width="30px" alt="Araña">
+            </button>
+        </header>
+
+        <!-- ================= MENÚ LATERAL (SLIDER Y MÁSCARA) ================= -->
+        <div class="mascara-menu">
+            <nav id="menuLateral" class="menu-deslizante">
+                <button id="btnCerrarMenu" class="btn-cerrar-menu">X</button>
+                <ul class="lista-menu">
+                    <li><a href="https://www.google.com/maps/@40.7534658,-73.934351,14a,82.2y,32.94h,82.22t/data=!3m7!1e1!3m5!1sen2wBwARxj7ZVm7XyTD8Qw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D7.780000000000001%26panoid%3Den2wBwARxj7ZVm7XyTD8Qw%26yaw%3D32.94!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">REGISTRO DE<br>ACTIVIDAD</a></li>
+                    <li><a href="https://x.com/spideytracker" target="_blank">REPORTAR<br>AVISTAMIENTOS</a></li>
+                    <li><a href="#">VIGILANCIA WEB</a></li>
+                    <li><a href="#">VIDEOS</a></li>
+                    <li><a href="https://www.instagram.com/p/DZncjKIiQQG/?hl=es&img_index=3" target="_blank">EVENTOS</a></li>
+                    <li><a href="#">AYUDA</a></li>
+                </ul>
+            </nav>
+        </div>     
+
+        <!-- ================= PESTAÑAS DECORATIVAS ================= -->
+        <aside class="barra-lateral-izq">
+            <button class="btn-lateral"><img src="img/arana.png" height="20px" width="20px" alt="Araña"></button>
+            <button class="btn-lateral"><img src="img/arana.png" height="20px" width="20px" alt="Araña"></button>
+        </aside>
+
+        <!-- ================= ESCENARIO CENTRAL ================= -->
+        <main class="escenario-central">
+            <div class="linea-telarana"></div>
+            <div>
+                <img src="img/spidey-colgado.png" height="50px" width="36px" alt="Spider-Man colgando">
+            </div>
+            <div id="panelBienvenida" class="panel-bienvenida">
+                <p class="texto-bienvenida">
+                    BIENVENIDO A SPIDEY NEWS.<br>
+                    INTERACTÚA PARA SABER SOBRE SPIDEY Y VER<br>
+                    SUS AVISTAMIENTOS EN TODO EL MUNDO.
+                </p>
+            
+                <div class="barras-audio">
+                    <div class="barra barra1"></div>
+                    <div class="barra barra2"></div>
+                    <div class="barra barra3"></div>
+                    <div class="barra barra4"></div>
+                    <div class="barra barra5"></div>
+                    <div class="barra barra6"></div>
+                    <div class="barra barra7"></div>
+                </div>
+                <p class="subtexto-bienvenida">EMPIEZA A RASTREAR</p>
+                <div class="botones-bienvenida">
+                    <button id="btnEntrar" class="btn-borde-cian">ENTRAR AL SISTEMA</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- ================= TOAST TERMINAL ================= -->
+        <div class="toast-terminal">
+            <ul class="lineas-terminal">
+                <li>INICIALIZANDO SPIDEY TRACKER v4.2.0...</li>
+                <li>INICIANDO SERVICIOS PRINCIPALES [OK]</li>
+                <li>CARGANDO RECURSOS BASE: INTERFAZ [OK]</li>
+                <li>INICIANDO LUZ DE EVENTOS [OK]</li>
+                <li>PREPARANDO CACHÉ DE IMÁGENES...</li>
+                <li class="parpadeo">COMPROBANDO FUENTES [OK]</li>
+            </ul>
+        </div>
+
+        <!-- ================= BARRA INFERIOR ================= -->
+        <footer class="barra-inferior">
+            <div class="inferior-izq">
+                <img src="img/spidey-pie.png" height="50px" width="50px" alt="Spidey pequeño" class="mascota-spidey">
+                <button id="btnTrailer" class="btn-accion btn-amarillo">VER TRÁILER</button>
+            </div>
+            
+            <div class="seccion-carga">
+                <div class="contenedor-progreso">
+                    <div class="relleno-barra-progreso"></div>
+                    <span class="texto-progreso">CARGANDO</span>
+                </div>
+                <button class="btn-volumen">
+                    <img src="img/icono-volumen.png" height="20px" width="25px" alt="Volumen">
+                </button>
+            </div>
+            
+            <div class="inferior-der">
+                <a href="https://www.sonypictures.com.mx/peliculas/spider-man-un-nuevo-dia" class="btn-accion btn-amarillo" target="_blank" style="text-decoration: none; display: inline-block;">Comprar entradas</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
