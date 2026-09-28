@@ -183,6 +183,8 @@ El botón superior de los ojos interactúa directamente con el Menú Deslizante,
 
 ## Componentes funcionando
 
+![Toast y Barra](img/TOASTyBarra.png)
+![Bienvenida](img/bienvenida.png)
 ![Menú Lateral Activo](img/menuLateral.png)
 ![Modal Reutilizable (Configuración de Cookies)](img/cookies.png)
 
